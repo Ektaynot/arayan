@@ -26,7 +26,7 @@ def send_mail():
     print('Mail Sent')
 
 def slack():
-    slack=Slacker('xxx')
+    slack=Slacker('bot api')
     message=(title)
     slack.chat.post_message('#general',message)
     print("slack send")
